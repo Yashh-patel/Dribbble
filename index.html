@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/18e54117ba.js" crossorigin="anonymous"></script>
+    <title>Dribbble</title>
+</head>
+
+<body>
+    <div id="page1">
+        <div id="nav">
+            <div id="nav-part1">
+                <h4>Find Talent</h4>
+                <h4>Inspiration</h4>
+                <h4>Learn design</h4>
+                <h4>Jobs</h4>
+                <h4>Go Pro</h4>
+            </div>
+            <img src="data:image/png;base64,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"
+                alt="">
+            <div id="nav-part2">
+                <button>Log in</button>
+                <button>Sign up</button>
+            </div>
+        </div>
+        <div id="content">
+            <h3>Over 3 million ready-to-work creatives!</h3>
+            <h1>The world’s destination<br> for design</h1>
+            <h4>Connect with millions of the world.</h4>
+            <button>Get started</button>
+
+
+        </div>
+    </div>
+    <div id="bottem">
+        <div class="elem">
+
+            <img src="https://cdn.dribbble.com/uploads/47170/original/cd3266dde4f00a5d6a509c7375ddaecd.png?1685644840&format=webp&resize=400x498&vertical=center"
+                alt="">
+
+            <div class="text-bottem">
+                <p>
+                    Aurélien Salomon
+                </p>
+                <p> design director</p>
+                <div>
+                    <span>
+                        Mobile
+                    </span>
+                    <span>
+                        Product
+                    </span>
+                    <span>
+                        Ux
+                    </span>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="elem">
+            <video src="https://cdn.dribbble.com/uploads/47179/original/35d07cfebd303e05e688078015da0cc2.mp4?1685645373"
+                autoplay muted loop></video>
+            <div class="text-bottem">
+                <p>
+                    Dan Mall
+                </p>
+                <p> Design Educator</p>
+                <div>
+                    <span>
+                        Product
+                    </span>
+
+                    <span>
+                        Ux
+                    </span>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div class="elem">
+            <img src="https://cdn.dribbble.com/uploads/47172/original/d85ae8c7db2421e9a01ecac942978d4b.png?1685645079&format=webp&resize=400x498&vertical=center"
+                alt="">
+            <div class="text-bottem">
+                <p>
+                    Andrea Jelic
+                </p>
+                <p> Digital Designer </p>
+                <div>
+                    <span>
+                        Brand
+                    </span>
+                    <span>
+                        UI
+                    </span>
+                    <span>
+                        Web
+                    </span>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="elem">
+            <video src="https://cdn.dribbble.com/uploads/47181/original/1e3a73a174484bef522b620c401cd00a.mp4?1685645427"
+                autoplay loop muted></video>
+            <div class="text-bottem">
+                <p>
+                    Emma Smith
+                </p>
+                <p> Frontend Developer</p>
+                <div>
+                    <span>
+                        UI/UX
+                    </span>
+                    <span>
+                        Web dev
+                    </span>
+
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="elem">
+            <img src="https://cdn.dribbble.com/uploads/47175/original/1fb34610061a95a007ac5e7b1dc53138.jpeg?1685645183&format=webp&resize=400x498&vertical=center"
+                alt="">
+            <div class="text-bottem">
+                <p>
+                    Victa Welli
+                </p>
+                <p> Digital Designer</p>
+                <div>
+                    <span>
+                        Mobile
+                    </span>
+                    <span>
+                        UI
+                    </span>
+
+                    <span>
+                        Web
+                    </span>
+
+
+                </div>
+
+            </div>
+        </div>
+        <div class="elem">
+            <video src="https://cdn.dribbble.com/uploads/47180/original/1def7b9fb30832c4af4353b325d9c3af.mp4?1685645402"
+                autoplay loop muted></video>
+            <div class="text-bottem">
+                <p>
+                    Jesse Showalter
+                </p>
+                <p>Design Educator</p>
+                <div>
+                    <span>
+                        UI
+                    </span>
+                    <span>
+                        Web
+                    </span>
+
+                    <span>
+                        Mobile
+                    </span>
+
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="elem">
+            <img src="https://cdn.dribbble.com/uploads/47176/original/9b22cd83bde1809976bec0722d1f8923.jpeg?1685645213&format=webp&resize=400x498&vertical=center"
+                alt="">
+            <div class="text-bottem">
+                <p>
+                    Elif Kameşoğlu
+                </p>
+                <p>Brand Designer</p>
+                <div>
+                    <span>
+                        Brand
+                    </span>
+                    <span>
+                        Illustration
+                    </span>
+
+                    <span>
+                        Web
+                    </span>
+
+
+                </div>
+
+            </div>
+        </div>
+        <div class="elem">
+            <img src="https://cdn.dribbble.com/uploads/47177/original/3986915be548424a5d36657f2b034ead.jpeg?1685645250&format=webp&resize=400x498&vertical=center"
+                alt="">
+            <div class="text-bottem">
+                <p>
+                    Chris Owens
+                </p>
+                <p>Creative Director</p>
+                <div>
+                    <span>
+                        Illustration
+                    </span>
+                    <span>
+                        Mobile
+                    </span>
+
+                    <span>
+                        UI
+                    </span>
+
+
+                </div>
+
+            </div>
+        </div>
+        <div class="elem">
+            <img src="https://cdn.dribbble.com/uploads/47178/original/mercedes-bazan.png?1689174566&format=webp&resize=400x498&vertical=center"
+                alt="">
+            <div class="text-bottem">
+                <p>
+                    Mercedes Bazan
+                </p>
+                <p>Illustrator</p>
+                <div>
+
+                    <span>
+                        Graphic Design
+                    </span>
+                    <span>
+                        Illustration
+                    </span>
+
+
+
+
+
+                </div>
+
+            </div>
+        </div>
+        <div class="elem">
+            <img src="https://cdn.dribbble.com/uploads/47171/original/daniele-buffa-3.png?1689174763&format=webp&resize=400x498&vertical=center"
+                alt="">
+
+            <div class="text-bottem">
+                <p>
+                    Daniele Buffa
+                </p>
+                <p>Principal Designer</p>
+                <div>
+
+                    <span>
+                        Animation
+                    </span>
+                    <span>
+                        UI
+                    </span>
+                    <span>
+                        Visual
+                    </span>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="elem">
+            <img src="https://cdn.dribbble.com/uploads/47173/original/Vladimir_Gruev.png?1689174896&format=webp&resize=400x498&vertical=center"
+                alt="">
+            <div class="text-bottem">
+                <p>
+                    Vladimir Gruev
+                </p>
+                <p>Digital Designer</p>
+                <div>
+
+                    <span>
+                        Brand
+                    </span>
+
+                    <span>
+                        Design
+                    </span>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div id="page2">
+        <h1>
+            Exlore inspiring designs
+        </h1>
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/15058699/file/original-517adb1573c3b17556e9d35cde5b1884.jpg?resize=400x0"
+                alt="Pocahontas disney illustration illustrator logo pocahontas">
+                <div class="box-bottem">
+                    <h6>Pocahontas</h6>
+                    <div>
+
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+                <div class="box-fotter">
+
+
+                </div>
+        </div>
+
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/14953112/file/original-0b4d46dbffe8c09a84ec6b4dd466fbbc.png?resize=1024x768"alt=>
+            <div class="box-bottem">
+                <h6>This weeks draggin</h6>
+                <div>
+
+                    <i class="fa-regular fa-bookmark"></i>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/14987077/file/original-159082df8d612cb27f8269921dc1bbdf.jpg?resize=1024x769"
+                alt="">
+                <div class="box-bottem">
+                    <h6>Surfe Rebrand 👀</h6>
+                    <div>
+
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+        </div>
+
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/14912171/file/original-accd7abb02ea29dd86824328b611b572.png?resize=752x"
+                alt="">
+                <div class="box-bottem">
+                    <h6>Women's Basketball Merch Concept</h6>
+                    <div>
+
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+        </div>
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/15058730/file/original-54b3606bff758fff1abd6453a7e4d744.jpg?resize=752x"
+                alt="">
+                <div class="box-bottem">
+                    <h6>NY Rats</h6>
+                    <div>
+
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+        </div>
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/14924669/file/original-42164259d38a1cf37dde9ca772328eda.jpg?resize=752x"
+                alt="">
+                <div class="box-bottem">
+                    <h6>Doodling with music lyrics
+                    </h6>
+                    <div>
+
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+        </div>
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/15037089/file/original-919bc2d94cf33f7a8fbd1a49aea83140.png?resize=752x"
+                alt="">
+                <div class="box-bottem">
+                    <h6>Customer Feedback Coaster</h6>
+                    <div>
+
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+        </div>
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/14988504/file/original-a56883496658dfe7643d9ba07be8b759.gif"
+                alt="">
+                <div class="box-bottem">
+                    <h6>Hootenanny Gravel Ride
+                    </h6>
+                    <div>
+
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+        </div>
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/14987352/file/original-181090557a999e0bd180fe89aebb253a.jpg?resize=1200x900"
+                alt="">
+                <div class="box-bottem">
+                    <h6>flamingo theme</h6>
+                    <div>
+
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+        </div>
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/14986031/file/original-498505c4485bdb59ac42b263bfcd1fbf.jpg?resize=752x"
+                alt="">
+                <div class="box-bottem">
+                    <h6>Beach theme</h6>
+                    <div>
+
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+        </div>
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/15059528/file/original-c27e25b7d1d7e66b03c00b252a965902.jpg?resize=752x"
+                alt="">
+                <div class="box-bottem">
+                    <h6>Hurdles</h6>
+                    <div>
+
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+        </div>
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/15040588/file/original-423ba01b40295d6f53dcef84a4d41bf6.jpg?resize=752x"
+                alt="">
+                <div class="box-bottem">
+                    <h6>Night Bazar Spook</h6>
+                    <div>
+
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+        </div>
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/15029520/file/original-6c407c38f880c521145dce24fe51f6ea.png?resize=1200x900"
+                alt="">
+                <div class="box-bottem">
+                    <h6>Off the Grid</h6>
+                    <div>
+
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+        </div>
+
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/11973888/file/original-e54eeb19c8cbe8d1bcc08ffbb4d15fa0.jpg?resize=1200x900"
+                alt="">
+                <div class="box-bottem">
+                    <h6>Zero Proof</h6>
+                    <div>
+
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+
+        </div>
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/15038763/file/original-577cc0afcda9c16d8417d3ba02230616.jpg?resize=1200x900"
+                alt="">
+                <div class="box-bottem">
+                    <h6>👁️ 📖 👁️</h6>
+                    <div>
+
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+        </div>
+
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/14987284/file/original-dcd87794859b3e9ec4fb8101b8a82707.jpg?resize=752x"
+                alt="">
+                <div class="box-bottem">
+                    <h6>City Perimeter 3</h6>
+                    <div>
+
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+        </div>
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/14909329/file/original-a3b7921916671cdb9b55c1ca95a38bcb.png?resize=1200x900"
+                alt="">
+                <div class="box-bottem">
+                    <h6>腐った</h6>
+                    <div>
+
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+        </div>
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/15065785/file/original-d8ecc1cf609edf66a77c9ca3048d1271.png?resize=1200x900"
+                alt="">
+                <div class="box-bottem">
+                    <h6>Avocado Hugs</h6>
+                    <div>
+
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+        </div>
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/15046079/file/original-acf0ba7f3f5d62a6a5816c22c73da5f4.jpg?resize=1200x900"
+                alt="">
+                <div class="box-bottem">
+                    <h6>Lahore Travel Poster</h6>
+                    <div>
+
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+        </div>
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/14974610/file/original-40ce8aa888675e7a3ed288b38fd4fe3e.jpg?resize=1024x768"
+                alt="">
+                <div class="box-bottem">
+                    <h6>Baby Party</h6>
+                    <div>
+
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+        </div>
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/14970828/file/original-d2dc3507c7854f4deaae6d8d49a1762e.jpg?resize=1200x1600"
+                alt="">
+                <div class="box-bottem">
+                    <h6> I Went To #8</h6>
+                    <div>
+
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+        </div>
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/14939460/file/original-4a2ec02c3f4159838697409af08c7edd.png?resize=1200x900"
+                alt="">
+                <div class="box-bottem">
+                    <h6>Camerimage Torun</h6>
+                    <div>
+
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+        </div>
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/14901302/file/original-eb4a2cdd0b8d3ae73f12041947cbe7dc.png?resize=1200x741"
+                alt="">
+                <div class="box-bottem">
+                    <h6>Snake Rum</h6>
+                    <div>
+
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+        </div>
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/14945626/file/original-ab2c96de46915ddc6eddc1ab4c65026f.jpg?resize=1024x1024"
+                alt="">
+                <div class="box-bottem">
+                    <h6>Hats</h6>
+                    <div>
+
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+        </div>
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/15077583/file/original-36d288918f63107a93576d1e8f448c9f.jpg?resize=1024x1448"
+                alt="">
+                <div class="box-bottem">
+                    <h6>Godzilla Minus One</h6>
+                    <div>
+
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+        </div>
+
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/14788700/file/original-8a1094e57e9346b47f317099c3d83a86.jpg?resize=1024x772"
+                alt="">
+                <div class="box-bottem">
+                    <h6>St. John the Beloved Wordmark</h6>
+                    <div>
+
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+
+        </div>
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/14989471/file/original-5513b7679c9942c4ed1141515316f585.png?resize=1200x900"
+                alt="">
+                <div class="box-bottem">
+                    <h6>Runig Wisdom</h6>
+                    <div>
+
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+        </div>
+
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/14957848/file/original-b54a41849c8c19ad8c1868fccdb2600c.jpg?resize=1200x900"
+                alt="">
+                <div class="box-bottem">
+                    <h6>Subway</h6>
+                    <div>
+
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+        </div>
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/14948617/file/original-186f57af318396940e41f25258925dc1.jpg?resize=1024x896"
+                alt="">
+                <div class="box-bottem">
+                    <h6>Traveller</h6>
+                    <div>
+
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+        </div>
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/14966397/file/original-9aab5a37af428077d760d56ca278a0e6.jpg?resize=1200x900"
+                alt="">
+                <div class="box-bottem">
+                    <h6>Jordan farms</h6>
+                    <div>
+
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+        </div>
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/15097061/file/original-b8982d0f02b48c3701823127a57e0fed.png?resize=1200x900"
+                alt="">
+                <div class="box-bottem">
+                    <h6>The Gryphon</h6>
+                    <div>
+
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+        </div>
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/15050040/file/original-8ca0f2727027265454ce705f06637218.jpg?resize=1200x1200"
+                alt="">
+                <div class="box-bottem">
+                    <h6>Body Buildere,s</h6>
+                    <div>
+
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+        </div>
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/15024895/file/original-e15109e1e08d9477abadfdcd610e63ba.jpg?resize=1024x1500"
+                alt="">
+                <div class="box-bottem">
+                    <h6>Weird chess game
+                    </h6>
+                    <div>
+
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+        </div>
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/14973030/file/original-8a98efbd74896d3c6381eb01d075d5b7.jpg?resize=1200x900"
+                alt="">
+                <div class="box-bottem">
+                    <h6>Phoenix</h6>
+                    <div>
+
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+        </div>
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/14988411/file/original-4fed9c32377cb2315c14257a7633458d.png?resize=1200x903"
+                alt="">
+                <div class="box-bottem">
+                    <h6>Office(9-5)</h6>
+                    <div>
+
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+        </div>
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/15036149/file/original-44173877a3b4aea4db02708c5c3a3398.png?resize=1200x900"
+                alt="">
+                <div class="box-bottem">
+                    <h6>easyly</h6>
+                    <div>
+
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+        </div>
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/14926714/file/original-c69cd201cbe3393964ce233901061411.png?resize=1200x900"
+                alt="">
+                <div class="box-bottem">
+                    <h6>FLoate in the space</h6>
+                    <div>
+
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+        </div>
+
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/14988280/file/original-0afa876b1b5879ac28c227bde13b59fe.png?resize=1200x900"
+                alt="">
+                <div class="box-bottem">
+                    <h6>Intoduction</h6>
+                    <div>
+
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+
+        </div>
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/14986004/file/original-b21501df3296b64428055e952c47dfed.jpg?resize=1200x900"
+                alt="">
+                <div class="box-bottem">
+                    <h6>illustrable</h6>
+                    <div>
+
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+        </div>
+
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/14987934/file/original-dfbce71502ee8910f6fa0ff16fc8e9e9.jpg?resize=1200x900"
+                alt="">
+                <div class="box-bottem">
+                    <h6>Kiss</h6>
+                    <div>
+
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+        </div>
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/14962423/file/original-eb5b451fe9552bd6e7b4531dc3d2b37e.jpg?resize=1024x768"
+                alt="">
+                <div class="box-bottem">
+                    <h6>Caziq</h6>
+                    <div>
+
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+        </div>
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/15053975/file/original-696702fc060156c23acc6949403df75c.png?resize=1200x900"
+                alt="">
+                <div class="box-bottem">
+                    <h6> Discussion </h6>
+                    <div>
+
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+        </div>
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/14907505/file/original-510b66c6ae2d87681094b2618b1d4927.jpg?resize=1200x900"
+                alt="">
+                <div class="box-bottem">
+                    <h6>Mobile logo design</h6>
+                    <div>
+
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+        </div>
+        <div class="box">
+            <video src="https://cdn.dribbble.com/userupload/15026000/file/original-3c498b85fb424da1bbcaed798f852c2e.mp4" autoplay loop muted></video>
+            <div class="box-bottem">
+                <h6>Stano</h6>
+                <div>
+
+                    <i class="fa-regular fa-bookmark"></i>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/14990093/file/original-19cba96e61e7059165cc14aa9e8d2b13.png?resize=1200x1200"
+                alt="">
+                <div class="box-bottem">
+                    <h6>Made in Brooklyn</h6>
+                    <div>
+
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+        </div>
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/14895580/file/original-7942f525dc6c5cc231bde3a5133dbbc9.jpg?resize=1200x900"
+                alt="">
+                <div class="box-bottem">
+                    <h6>Olive oil</h6>
+                    <div>
+
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+        </div>
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/14834278/file/original-e30e5eed579e1bc2cb6774d545a59d18.png?resize=1200x800"
+                alt="">
+                <div class="box-bottem">
+                    <h6>belive in Yours</h6>
+                    <div>
+
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+        </div>
+        <div class="box">
+            <img src="https://cdn.dribbble.com/userupload/14665048/file/original-39f33dfa2ea27e40d99ecbaf03d99002.jpg?resize=1200x900"
+                alt="">
+                <div class="box-bottem">
+                    <h6>Pocahontas</h6>
+                    <div>
+
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <div id="page3">
+        
+        <h2>Find your next <br> designer today</h2>
+        <p>The world's leading brands use Dribbble to hire creative talent. <br>
+        Browse millions of top-rated portfolios to find your perfect <br>creative match</p>
+        <div class="btns">
+            <button>Get started now</button>
+            <button>Learn about hiring</button>
+        </div>
+        <h6>Are you a designer? <span>Join Dribbble</span></h6>
+    </div>
+    <div id="bottem2">
+        <div class="elem2">
+
+            <img src="https://cdn.dribbble.com/userupload/14787268/file/original-cdf598b47af2a624e2c55bbd05e50eb9.jpg?resize=1200x900"
+                alt="">
+                <div class="box-Footer">
+                   <h5>
+                    Design,s
+                   </h5>
+                </div>
+
+           
+        </div>
+        <div class="elem2">
+            <img src="https://cdn.dribbble.com/userupload/14621951/file/original-cb675d205f2cc76bc5e6d50199c8833f.jpg?resize=1200x900" alt="">
+         
+            <div class="box-Footer">
+                <h5>
+                 Print
+                </h5>
+             </div>
+
+        </div>
+
+        <div class="elem2">
+            <img src="https://cdn.dribbble.com/userupload/14736258/file/original-d5dc48071d6c862b2eb708d9852c4dda.jpg?resize=1200x900"
+                alt="">
+                <div class="box-Footer">
+                    <h5>
+                     Mobile
+                    </h5>
+                 </div>
+ 
+
+        </div>
+        <div class="elem2">
+          <img src="https://cdn.dribbble.com/userupload/14953546/file/original-9c5693aed53d5b6428fe10cad82db5ed.jpg?resize=1200x900&vertical=center" alt="">
+            
+          <div class="box-Footer">
+            <h5>
+             Web design
+            </h5>
+         </div>
+
+        </div>
+        <div class="elem2">
+            <img src="https://cdn.dribbble.com/userupload/14844019/file/original-899956949bebb582de5be95e3502fe30.png?resize=1200x900"
+                alt="">
+                <div class="box-Footer">
+                    <h5>
+                     Typography
+                    </h5>
+                 </div>
+ 
+            </div>
+        
+        <div class="elem2">
+            <img src="https://cdn.dribbble.com/userupload/14638345/file/original-8d2c6dc6cd053f594dfd5469a9c7b4c8.jpg?resize=1200x900" alt="">
+           
+            <div class="box-Footer">
+                <h5>
+                 Design,s
+                </h5>
+             </div>
+
+        </div>
+        <div class="elem2">
+            <img src="https://cdn.dribbble.com/userupload/14693142/file/original-98f0f411821c679695c1407d89f7b47a.jpg?resize=1200x900"
+                alt="">
+                <div class="box-Footer">
+                    <h5>
+                     Animation
+                    </h5>
+                 </div>
+ 
+        </div>
+        <div class="elem2">
+            <img src="https://cdn.dribbble.com/userupload/14656345/file/original-f2d39c78c2de3459cafe016e8e39c522.png?resize=1200x900&vertical=center"
+                alt="">
+                <div class="box-Footer">
+                    <h5>
+                     Design,s
+                    </h5>
+                 </div>
+ 
+        </div>
+        <div class="elem2">
+            <img src="https://cdn.dribbble.com/userupload/14782902/file/original-bc3385f41fdc022943f4e938a7b6941f.jpg?resize=1200x900"
+                alt="">
+                <div class="box-Footer">
+                    <h5>
+                     Web design
+                    </h5>
+                 </div>
+ 
+        </div>
+        <div class="elem2">
+            <img src="https://cdn.dribbble.com/userupload/14710337/file/original-562f4e188f7ab49c625510100d106fdc.jpg?resize=1200x900"
+                alt="">
+
+                <div class="box-Footer">
+                    <h5>
+                     Branding
+                    </h5>
+                 </div>
+ 
+        </div>
+
+        <div class="elem2">
+            <img src="https://cdn.dribbble.com/userupload/14829808/file/original-899d8ddee846c21bb33e41dc835ac21d.jpg?resize=1200x900"
+                alt="">
+                <div class="box-Footer">
+                    <h5>
+                     Illustration
+                    </h5>
+                 </div>
+ 
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer1">
+
+<img src="data:image/png;base64,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">
+<div>
+    <a href="#">For designers</a>
+    <a href="#">Hire talents</a>
+    <a href="#">Inspiration</a>
+    <a href="#">Advertising</a>
+    <a href="#">Blog</a>
+    <a href="#">About</a>
+    <a href="#">Careers</a>
+    <a href="#">Support</a>
+</div>   
+<div class="icons">
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-linkedin"></i>
+    <i class="fa-brands fa-twitter"></i>
+</div>   
+</div>
+    
+        <div class="footer2">
+            <div>
+                <span> &copy; 2024 Dribble</span>
+                <span>Terms</span>
+                <span>Privacy</span>
+                <span>Cookies</span>
+            </div>
+            <div>
+                <span>Jobs</span><span>designers</span><span>Freelancers</span><span>Tags</span><span>Places</span><span>Resources</span>
+            </div>
+        </div>
+    </footer>
+    
+</div>
+
+</body>
+
+</html>
