@@ -30,7 +30,7 @@ Dribbble Clone is a web-based project aimed at showcasing web development skills
 
 - **HTML5**: Structure the web content.
 - **CSS3**: Style the web pages with modern designs.
-- **JavaScript**: Add interactivity to the web pages.
+
 
 ## Installation
 
