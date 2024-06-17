@@ -275,7 +275,9 @@ width: 20vw;
   text-align: center;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
   margin-top:0;
+  
   
  }
  #page3 h2{
