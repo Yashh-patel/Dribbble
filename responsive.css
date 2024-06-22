@@ -1,0 +1,237 @@
+@media (max-width : 600px) {
+    #page1{
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        overlay:none;
+    }
+    #nav{
+display: flex;
+justify-content: space-between;
+    }
+    #nav-part2 button{
+
+        font-size:13px;
+        margin: 0px 20px;
+        padding: 5px 26px;
+    }
+   #nav h4{
+   display: none;
+   }
+   #page1 img{
+  margin-right: 45%;
+   }
+
+   #content{
+    margin-top: 10%;
+    margin-left: 0%;
+   }
+
+   #bottem{
+    height:40vh;
+    width:fit-content;
+
+
+   }
+   #bottem .elem{
+    height: 100%;
+    width:250px;
+
+
+   }
+   #bottem .elem img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position:center;
+   }
+   #bottem .elem video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position:center;
+   }
+#bottem .text-bottem{
+
+    height: 40%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    padding:12px 20px;
+    color: white;
+    font-weight: 500;
+}
+.text-bottem p{
+    
+    font-size: 4.2vw;
+    font-weight: 500;
+     }     
+     .text-bottem div{
+        margin-top: 12px;
+    
+     }
+     .text-bottem span{
+    
+        padding: 0.5vw 1vw;
+        border: 0.2px solid rgb(191, 183, 183);
+        font-size: 3.5vw;
+        border-radius: 3vw;
+        
+    
+     }
+     #page2{
+        width: 100%;
+        height: fit-content;
+        display: inline-block;
+        position: relative;
+
+
+     }
+     #page2 h1{
+        text-align: center;
+        font-size: 7vw;
+        margin-top: 6vw;
+
+     }
+     #page2 .box{
+        width: 100%;
+        height: 45%;
+    
+    
+     }
+     #page2 .box img{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        object-fit: cover;
+        object-position: center;
+     }
+     #page2 .box video{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+     }
+     .box-bottem h6{
+        font-size: 4.52vw;
+        color: white;
+        font-weight: 100;
+      }
+      .box-bottem i{
+        background-color: white ; 
+        padding: 10px 20px;
+        border-radius: 50%;
+      }
+      #page3{
+        height: 100vh;
+        width: 100%;
+    
+      }
+      #page3 h2{
+
+        font-family: heading;
+        font-size: 8vw;
+        margin:0px;
+        line-height: 7.5vw;
+        font-weight: 300;
+        margin-top: 45%;
+       }
+       #page3 p{
+        font-size: 2.9vw;
+        font-weight: 100;
+        color: #393939;
+        line-height: 3vw;
+        margin-top: 30px;
+        margin-bottom: 20px;
+       }
+       #page3 .btns{
+        gap: 2.5vw;
+      
+      }
+      #page3 .btns button{
+        width: 19.3vw;
+        height: 7.5vw;
+        background-color: #0D0C22;
+        color: white;
+        border: none;
+        border-radius: 6.5vw;
+        font-weight: 600;
+        font-size: 3.2vw;
+      }
+      #page3 .btns button:last-child{
+        background-color: white;
+        color: black;
+      }
+      #page3 h6{
+        font-size: 2.6vw;
+        font-weight: 300;
+        margin-top: 1.5vw;
+        color: #393939;
+      }
+      #page3 h6 span{
+        text-decoration: underline;
+      }
+      #bottem2{
+
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+       padding: 2vw 0vw;
+        overflow-x: auto;
+        overflow-y: hidden;
+        margin-top: 15px;
+        animation: anime;
+        animation-duration: 18s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+      }
+      @keyframes anime {
+        from{
+          transform: translateX(0);
+        }
+        to{
+          transform: translateX(calc(-100% - 10%));
+        }
+      }
+      footer{
+        width: 100%;
+        height: 10vh;
+        margin-top: 2vw;
+        padding: 2vw 3vw;
+        display: flex;
+        flex-direction: column;
+      }
+      .footer1{
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+      
+      }.footer1 img{
+        height: 5vw;
+        margin: -1px;
+      }
+      .footer1 a{
+        text-decoration: none;
+        color: #000;
+        margin: 0px;
+        font-size: 8px;
+      }
+      .footer1 i{
+        font-size: 10px;
+        margin: 8px;
+        
+      }
+      .footer2{
+        display: flex;
+        justify-content: space-between;
+        margin:15px ;
+        font-size: 9px;
+        padding: 10px;
+      }
+      .footer2 div{
+        display: flex;
+        gap: 1.3vw;
+      }
+  
+}
