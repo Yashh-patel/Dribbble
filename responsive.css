@@ -1,9 +1,14 @@
 @media (max-width : 600px) {
+
+   body{
+    overflow-x: hidden;
+   }
     #page1{
         width: 100%;
         height: 100vh;
         position: relative;
         overlay:none;
+        overflow: hidden;
     }
     #nav{
 display: flex;
@@ -12,7 +17,7 @@ justify-content: space-between;
     #nav-part2 button{
 
         font-size:13px;
-        margin: 0px 20px;
+        margin: 0px 27px;
         padding: 5px 26px;
     }
    #nav h4{
@@ -23,7 +28,7 @@ justify-content: space-between;
    }
 
    #content{
-    margin-top: 10%;
+    margin-top: 5%;
     margin-left: 0%;
    }
 
@@ -65,7 +70,7 @@ justify-content: space-between;
 }
 .text-bottem p{
     
-    font-size: 4.2vw;
+    font-size: 3.2vw;
     font-weight: 500;
      }     
      .text-bottem div{
@@ -74,9 +79,9 @@ justify-content: space-between;
      }
      .text-bottem span{
     
-        padding: 0.5vw 1vw;
+        padding: 1.5vw 1vw;
         border: 0.2px solid rgb(191, 183, 183);
-        font-size: 3.5vw;
+        font-size: 2%;
         border-radius: 3vw;
         
     
@@ -209,16 +214,16 @@ justify-content: space-between;
       
       }.footer1 img{
         height: 5vw;
-        margin: -1px;
+        margin: 0px;
       }
       .footer1 a{
         text-decoration: none;
         color: #000;
         margin: 0px;
-        font-size: 8px;
+        font-size: 4px;
       }
       .footer1 i{
-        font-size: 10px;
+        font-size: 8px;
         margin: 8px;
         
       }
@@ -226,7 +231,7 @@ justify-content: space-between;
         display: flex;
         justify-content: space-between;
         margin:15px ;
-        font-size: 9px;
+        font-size: 6px;
         padding: 10px;
       }
       .footer2 div{
